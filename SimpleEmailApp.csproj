@@ -14,8 +14,12 @@
   <ItemGroup>
     <None Remove="Controllers\" />
     <None Remove="MailKit" />
+    <None Remove="Services\" />
+    <None Remove="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Services\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 </Project>
